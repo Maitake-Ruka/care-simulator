@@ -212,7 +212,7 @@ const CareCostSimulator = () => {
                         : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                   >
-                    該当しない
+                    いない
                   </button>
                 </div>
               </div>
@@ -274,7 +274,7 @@ const CareCostSimulator = () => {
                         : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                   >
-                    該当しない
+                    いない
                   </button>
                 </div>
               </div>
@@ -391,8 +391,8 @@ const CareCostSimulator = () => {
               </div>
 
               <div className="bg-white p-6 rounded-2xl shadow-md">
-                <h3 className="text-xl font-bold text-gray-800 mb-4 border-b-2 border-orange-200 pb-2 flex items-center gap-2">
-                  <Clock className="w-6 h-6 text-orange-600" />
+                <h3 className="text-xl font-bold text-gray-800 mb-4 border-b-2 border-green-200 pb-2 flex items-center gap-2">
+                  <Clock className="w-6 h-6 text-green-600" />
                   ■ 介護による拘束時間
                 </h3>
                 
@@ -422,7 +422,7 @@ const CareCostSimulator = () => {
                   </div>
                 )}
 
-                <div className="bg-gradient-to-r from-orange-500 to-amber-500 p-6 rounded-xl text-white text-center">
+                <div className="bg-gradient-to-r from-green-500 to-emerald-500 p-6 rounded-xl text-white text-center">
                   <p className="text-lg mb-2">合計拘束時間</p>
                   <p className="text-4xl font-bold mb-3">{result.totalTimeHours.toLocaleString()}時間</p>
                   <p className="text-4xl font-bold">約{result.totalTimeYears}年分</p>
